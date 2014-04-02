@@ -1,9 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /**color:#777;**/
+  color:#393939;
   font-weight:300;
 }
 
@@ -76,10 +75,16 @@ table {
   border-collapse:collapse;
 }
 
+.section {
+  background: #f8f8f8;
+  font-weight:600;
+  color:#393939;
+}
+
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border:1px solid #e5e5e5;
 }
 
 dt {
