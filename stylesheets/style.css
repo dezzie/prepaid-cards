@@ -1,0 +1,247 @@
+body {
+  padding:20px;
+  font:16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#000;
+}
+
+a {
+  color:#39c;
+  font-weight:400;
+  text-decoration:none;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.6em;
+  display:block;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+.section {
+  background: #f8f8f8;
+  font-weight:600;
+  color:#393939;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border:1px solid #000;
+}
+
+tr {
+  padding:5px 10px;
+}
+
+dt {
+  color:#444;
+  font-weight:700;
+}
+
+th {
+  color:#444;
+}
+
+img {
+  max-width:100%;
+}
+
+
+.formTable{
+  border-color: #000;
+}
+
+.formTable th, .formTable td {
+  text-align:left;
+  padding:10px 15px;
+  border:1px solid #000;
+}
+
+.formTable th{
+  border-color: #000;
+}
+
+.formTable th{
+  color: #fff;
+  background-color: #000;
+}
+
+/*.formTable .details{
+  font-style: italic;
+}*/
+
+.formTable .table-span{
+  background-color: #E3E4E5;
+  border-bottom: none;
+}
+
+.formTable .description{
+  width: 40%;
+}
+.formTable .amount{
+  width: 10%;
+}
+.formTable .details{
+  width: 50%;
+}
+
+.formTable .description-multi{
+  width: 35%;
+}
+.formTable .details-multi{
+  width: 35%;
+}
+
+.formTable .fine-print{
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@media print, screen and (max-width: 960px) {
+  
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+  
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+  
+  header {
+    padding-right:320px;
+  }
+  
+  section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+  
+  header a small {
+    display:inline;
+  }
+  
+  header ul {
+    position:absolute;
+    right:50px;
+    top:52px;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+  body {
+    word-wrap:break-word;
+  }
+  
+  header {
+    padding:0;
+  }
+  
+  header ul, header p.view {
+    position:static;
+  }
+  
+  pre, code {
+    word-wrap:normal;
+  }
+  
+  .formTable td{
+    box-sizing: border-box;
+    display: block;
+    float: left;
+  }
+
+  .formTable th{
+    box-sizing: border-box;
+    display: block;
+    float: left;
+  }
+
+  .formTable .description-header, .formTable .details-header{
+    width: 73%;
+  }
+  th.amount-header{
+    width: 27%;
+  }
+
+  .formTable .table-span{
+    width:100%;
+  }
+  .formTable .amount{
+    width: 25%;
+    border: none;
+    border-top: 1px solid #000;
+  }
+
+  .formTable .description, .formTable .details{
+    width: 75%;
+  }
+
+  .formTable .description{
+    border: none;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+
+  .formTable .details{
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-right: 1px solid #000;
+  }
+  .formTable {
+    border: 1px solid #000;
+    border-collapse:collapse;
+  }
+
+  .formTable .detail-header{
+    display: none;
+  }
+
+  .formTable .fine-print{
+    width: 100%;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+  }
+  .formTable .table-span{
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+
+  .formTable .details{
+  font-style: italic;
+}
+
+}
+
+/*@media print, screen and (max-width: 480px) {
+  body {
+    padding:15px;
+  }
+  
+  header ul {
+    display:none;
+  }
+
+}
+
+@media print {
+  body {
+    padding:0.4in;
+    font-size:12pt;
+    color:#444;
+  }
+}
+*/
