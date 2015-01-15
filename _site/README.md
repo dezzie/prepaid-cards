@@ -15,7 +15,7 @@ The disclosures take two forms: (1) a short form that highlights key information
 |  Short form 	|   Long form	| 
 |---	|---	|
 |   Native .eps (569kb)	|  Native .eps (569kb) 	| 
-|   	|   [HTML (5kb)](long-multi.html) [(Preview)](https://github.cfpb.gov/pages/dezzie/prepaids/long.html) |
+|   	|   [HTML (5kb)](long-multi.html) [(Preview)](https://github.cfpb.gov/pages/dezzie/prepaids/long-multi.html) |
 
 [Grab a .PDF preview of all the forms here](http://files.consumerfinance.gov/f/201411_cfpb_prepaid-model-sample-disclosure-forms.pdf)
 
